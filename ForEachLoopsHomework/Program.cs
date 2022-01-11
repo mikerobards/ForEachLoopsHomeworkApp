@@ -12,10 +12,10 @@ do
     }
 } while (input != "");
 
+Console.WriteLine();
 
 foreach (string name in firstNames)
 {
-    Console.WriteLine();
     Console.WriteLine($"Hello {name}!");
 }
 
